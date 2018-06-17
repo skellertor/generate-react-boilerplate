@@ -9,8 +9,7 @@ const REACT = 'React';
 const NODE = 'Node';
 
 const repos = {
-    [REACT]: 'https://github.com/ClipMX/react.boilerplate.git',
-    [NODE]: 'https://github.com/ClipMX/node.boilerplate.git'
+    [REACT]: 'https://github.com/skellertor/react-starter.git',
 }
 
 const questions = [
@@ -18,7 +17,7 @@ const questions = [
         type: 'list',
         name: 'projectType',
         message: "Choose a project type: ",
-        choices: [NODE, REACT],
+        choices: [REACT],
         default: 0
     },
     {

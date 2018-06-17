@@ -1,5 +1,5 @@
 {
-  "name": "@clipmx/create.boilerplate",
+  "name": "create.boilerplate",
   "version": "1.0.2",
   "description": "An app boilerplate generator",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "payclip",
+    "react",
     "boilerplate"
   ],
   "author": "skellertor",
@@ -22,6 +22,6 @@
   },
   "preferGlobal": true,
   "bin": {
-    "clip-boilerplate": "./index.js"
+    "generate-boilerplate": "./index.js"
   }
 }
