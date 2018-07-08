@@ -13,7 +13,7 @@
 
 1. Install this repo globally with npm. Type the following command in the cli
 ```bash
-$ npm install -g https://github.com/skellertor/create-boilerplate
+$ npm install -g generate-boilerplate
 ```
 2. Once you have installed it globally it will be available on the command line by the name `generate-boilerplate`. Type the following command in the cli
 ```bash
