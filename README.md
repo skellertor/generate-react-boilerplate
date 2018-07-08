@@ -1,7 +1,7 @@
 <img src="https://media.boingboing.net/wp-content/uploads/2015/11/testing.gif" />
 
 
-# :sparkles: Create Boilerplate :sparkles:
+# :sparkles: Generate React Boilerplate :sparkles:
 
 **A boilerplate generator for React apps**
 
