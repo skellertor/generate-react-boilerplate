@@ -5,7 +5,7 @@ const program = require('commander');
 
 const util = require('./util');
 
-console.log(textSync('Clip-boilerplate', {
+console.log(textSync('generate-boilerplate', {
     font: 'Tombstone',
     horizontalLayout: 'default',
     verticalLayout: 'default'

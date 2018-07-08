@@ -3,7 +3,7 @@
 
 # :sparkles: Create Boilerplate :sparkles:
 
-**A boilerplate generator for React and Node apps**
+**A boilerplate generator for React apps**
 
 :information_source: Project requirements (what it needs to run correctly)
 ---
