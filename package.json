@@ -1,5 +1,5 @@
 {
-  "name": "create.boilerplate",
+  "name": "generate-react-boilerplate",
   "version": "1.0.2",
   "description": "A react app boilerplate generator",
   "main": "index.js",
