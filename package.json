@@ -1,6 +1,6 @@
 {
   "name": "generate-react-boilerplate",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A react app boilerplate generator",
   "repository": {
     "type": "git",
