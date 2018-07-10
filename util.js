@@ -46,7 +46,7 @@ const questions = [
         type: 'input',
         name: 'author',
         message: 'Authors name: ',
-        default: 'Payclip'
+        default: ''
     }
 ];
 

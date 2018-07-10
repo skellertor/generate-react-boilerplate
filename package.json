@@ -2,6 +2,10 @@
   "name": "generate-react-boilerplate",
   "version": "1.0.5",
   "description": "A react app boilerplate generator",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skellertor/generate-react-boilerplate"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
