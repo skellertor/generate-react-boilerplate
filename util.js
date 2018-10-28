@@ -14,13 +14,6 @@ const repos = {
 
 const questions = [
     {
-        type: 'list',
-        name: 'projectType',
-        message: "Choose a project type: ",
-        choices: [REACT],
-        default: 0
-    },
-    {
         type: 'input',
         name: 'projectName',
         message: 'Enter a project name: ',
