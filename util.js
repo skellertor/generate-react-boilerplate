@@ -6,7 +6,6 @@ const { exec } = require('shelljs');
 require('colors');
 
 const REACT = 'React';
-const NODE = 'Node';
 
 const repos = {
     [REACT]: 'https://github.com/skellertor/react-starter.git',
@@ -69,9 +68,9 @@ function createProjectDirectory(answers) {
 
 function cloneRepo(answers) {
     return new Promise((resolve, reject) => {
-        const { projectDirectory, projectType } = answers;
-        console.log(`${emoji.get('hourglass')} Cloning ${projectType} boilerplate ...\n`.yellow);
-        const repo = repos[projectType];
+        const { projectDirectory } = answers;
+        console.log(`${emoji.get('hourglass')} Cloning boilerplate ...\n`.yellow);
+        const repo = repos[REACT];
         exec(`git clone ${repo} ${projectDirectory}`, (statusCode, stdout, stderr) => {
             if (statusCode > 0) return reject(stderr);
             console.log(`${emoji.get('white_check_mark')} Successfully cloned ${repo}\n`.underline.green);
