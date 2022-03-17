@@ -1,6 +1,6 @@
 {
   "name": "generate-react-boilerplate",
-  "version": "1.0.8",
+  "version": "2.0.0",
   "description": "A react app boilerplate generator",
   "repository": {
     "type": "git",
@@ -17,7 +17,6 @@
   "author": "skellertor",
   "license": "ISC",
   "dependencies": {
-    "colors": "^1.2.1",
     "commander": "^2.15.1",
     "figlet": "^1.2.0",
     "inquirer": "^5.1.0",

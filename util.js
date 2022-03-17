@@ -3,7 +3,6 @@ const fs = require('fs');
 const emoji = require('node-emoji');
 const prompt = require('inquirer').prompt;
 const { exec } = require('shelljs');
-require('colors');
 
 const REACT = 'React';
 
